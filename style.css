@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  background: rgb(41 37 36 / 1);
+  overflow-x: hidden;
+  color: white;
+  font-weight: 700;
+  padding-top: 1rem;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+#wrapper {
+  max-width: 480px;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.passage {
+  font-size: .875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+#heading {
+  font-weight: 700;
+}
+
+#search {
+  width: 80%;
+  height: 40px;
+  font-size: .875rem;
+  line-height: 1.25rem;
+  padding: 0;
+}
+
+#btn {
+  width: 10%;
+  cursor: pointer;
+  height: 100%;
+  color: white;
+  background-color: rgb(120 113 108);
+}
+
+#text2 {
+  margin: 20px 0 10px 0;
+}
+
+.container {
+  color: black;
+  display: inline-block;
+  height: 101px;
+  width: 70px;
+}
+
+#content {
+  background-color: white;
+
+  text-align: center;
+  margin: 5px;
+}
+
+#flexHead {
+  color: #D0021B;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 1.75rem;
+}
+
+#CountryId {
+  color: #FF6100;
+  font-weight: 700;
+}
+
+#probability {
+  color: #440000;
+}
+
+#myBar {
+
+
+  background-color: lightslategray;
+}
